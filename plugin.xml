@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.qbix.authenticationsession"
+        version="0.0.1">
+
+  <name>AuthenticationSession</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/main.js" target="js/main.js"/>
+
+  <js-module src="www/main.js" name="AuthenticationSession">
+    <clobbers target="AuthenticationSession" />
+  </js-module>
+
+  <platform name="ios">
+    
+    <config-file target="config.xml" parent="/widget">
+      <feature name="AuthenticationSession">
+        <param name="ios-package" value="AuthenticationSession" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/AuthenticationSession.h" target-dir="AuthenticationSession"/>
+    <source-file src="src/ios/AuthenticationSession.m" target-dir="AuthenticationSession"/>
+  </platform>
+
+</plugin>

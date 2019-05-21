@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-authenticationsession",
+  "version": "0.1.0",
+  "description": "A plugin to use SFAuthenticationSession and ASWebAuthenticationSession API's",
+  "cordova": {
+    "id": "cordova-plugin-authenticationsession",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qbix/cordova-plugin-authenticationsession.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "SFAuthenticationSession",
+    "ASWebAuthenticationSession",
+    "cordova-ios"
+  ],
+  "author": "Igor Martsekha",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/Qbix/cordova-plugin-authenticationsession/issues"
+  },
+  "homepage": "https://github.com/Qbix/cordova-plugin-authenticationsession#readme"
+}
